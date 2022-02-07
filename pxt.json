@@ -1,0 +1,28 @@
+{
+    "name": "BitBot",
+    "version": "1.5.2",
+    "description": "Microsoft MakeCode package for 4tronix BitBot robot",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "fireled": "github:4tronix/FireLedsBase#0.1.4",
+        "firescreen": "github:4tronix/FireScreen#0.0.5"
+    },
+    "files": [
+        "README.md",
+        "bitbot.ts",
+        "_locales/no/BitBot-strings.json",
+        "_locales/no/BitBot-jsdoc-strings.json",
+        "_locales/nb/BitBot-strings.json",
+        "_locales/nb/BitBot-jsdoc-strings.json",
+        "_locales/nn/BitBot-strings.json",
+        "_locales/nn/BitBot-jsdoc-strings.json",
+        "_locales/fr/BitBot-strings.json",
+        "_locales/fr/BitBot-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true,
+    "yotta": {}
+}
